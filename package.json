@@ -1,0 +1,45 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React example starter project",
+  "keywords": [
+    "react",
+    "starter"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@types/react": "16.9.46",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "7.1.9",
+    "@types/redux-logger": "^3.0.8",
+    "@types/redux-thunk": "2.1.0",
+    "eslint": "7.7.0",
+    "eslint-config-airbnb-typescript-prettier": "3.1.0",
+    "prettier": "2.0.5",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-redux": "7.2.1",
+    "react-scripts": "3.0.1",
+    "redux": "4.0.5",
+    "redux-logger": "3.0.6",
+    "redux-thunk": "2.3.0",
+    "typescript": "3.9.7"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "format": "prettier --write src/**/*.{js,jsx,ts,tsx}",
+    "lint": "eslint --fix src/**/*.{js,jsx,ts,tsx}"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
